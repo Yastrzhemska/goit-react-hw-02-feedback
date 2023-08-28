@@ -5,7 +5,7 @@ export const FeedbackDiv  = styled.section`
     align-items: center;
     gap: 10px;
     margin-left: 25px;
-`;
+`
 
 export const FeedbackBtn  = styled.section`
     font-weight: 300;
@@ -19,8 +19,9 @@ export const FeedbackBtn  = styled.section`
     border-radius: 4px;
     padding: 6px 12px;
 
-    :hover {
+    :hover
+    :focus {
     background-color: #0099ff;
     }
-`;
+`
 

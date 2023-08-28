@@ -1,13 +1,13 @@
-
+import {Text, StatDiv} from './Statistics.styled'
 
 export const Statistics = ({good, neutral, bad, total, positivePercentage}) => {
     return (
-        <div>
-            <p>Good: {good}</p>
-            <p>Neutral: {neutral}</p>
-            <p>Bad: {bad}</p>
-            <p>Total: {total}</p>
-            <p>PositivePercentage: {positivePercentage}%</p>
-        </div>
+        <StatDiv>
+            <Text>Good: {good}</Text>
+            <Text>Neutral: {neutral}</Text>
+            <Text>Bad: {bad}</Text>
+            <Text>Total: {total}</Text>
+            <Text>PositivePercentage: {positivePercentage}%</Text>
+        </StatDiv>
  )   
 }

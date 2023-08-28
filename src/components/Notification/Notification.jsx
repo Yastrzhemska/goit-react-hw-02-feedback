@@ -1,5 +1,9 @@
+import { Text } from './Notification.styled'
 
 
 export const Notification = ({ massege }) => {
-    <p>{massege}</p>
+    return (
+        <Text>{massege}</Text>
+    )
+    
 }
