@@ -45,7 +45,7 @@ console.log(items)
     const content = this.countTotalFeedback() > 0;
     
     return (
-      <div>
+      <>
         <Section
         title="Please leave feedback">
 
@@ -70,7 +70,7 @@ console.log(items)
         </Section>
 
       
-      </div>
+      </>
     )
   }
   
