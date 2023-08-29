@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const FeedbackDiv  = styled.section`
+export const FeedbackDiv  = styled.div`
     display: flex;
     align-items: center;
     gap: 10px;
     margin-left: 25px;
 `
 
-export const FeedbackBtn  = styled.section`
+export const FeedbackBtn  = styled.button`
     font-weight: 300;
     font-size: 16px;
     line-height: 1.5;
